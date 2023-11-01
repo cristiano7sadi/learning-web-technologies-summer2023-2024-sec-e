@@ -1,0 +1,21 @@
+<?php 
+    require_once('../controller/sessioncheck.php');
+?>
+
+<html>
+<head>
+	<title>Home - Admin</title>
+</head>
+<center>
+	<body>
+		<h1>Welcome!</h1>
+		<a href="profile.html">Profile</a>
+		<br/>
+		<a href="change_password.html">Change Password</a>
+		<br/>
+		<a href="view_users.html">View Users</a>
+		<br/>
+		<a href="login.html">Logout</a>
+	</body>
+</center>
+</html>
