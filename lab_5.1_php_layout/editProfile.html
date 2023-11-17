@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Edit Profile</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="2">X Company</td>
+            <td align="right">Logged in as <a href="viewProfile.html">Bob</a> | <a href="logoutCheck.php">Logout</a></td>
+        </tr>
+        <tr>
+            <td>
+                Account <hr>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="viewProfile.html">View Profile</a></li>
+                    <li><a href="editProfile.html">Edit Profile</a></li>
+                    <li><a href="profilePicture.html">Chanage Profile Picture</a></li>
+                    <li><a href="changePassword.html">Change Password</a></li>
+                    <li><a href="logoutCheck.php">Logout</a></li>
+                </ul>
+            </td>
+            <td colspan="2">
+                <legend>Edit Profile</legend> <hr>
+                Name : <input type="text" name="name" value=""> <hr>
+                Email : <input type="text" name="email" value=""> <hr>
+                Gender : <input type="radio" name="gender" value="Male"> Male <input type="radio" name="gender" value="Female"> Female <input type="radio" name="gender" value="Other"> Other <hr>
+                Date of Birth : <input type="number" name="day"> / <input type="number" name="month"> / <input type="number" name="year"> (dd/mm/yyyy) <hr>
+                <input type="submit" name="submit" value="Submit">
+            </td> <hr>
+        </tr>
+        <tr>
+            <td align="center" colspan="3">Copyright (c) 2017</td>
+        </tr>
+    </table>
+</body>
+</html>
